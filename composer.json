@@ -1,0 +1,16 @@
+{
+  "name": "developersfoundation/Queens",
+  "description": "Queens site",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Leonard Ha",
+      "email": "leonard@developersfoundation.ca"
+    }
+  ],
+  "require": {
+    "sendgrid/sendgrid": "4.0.4",
+    "parse/php-sdk": "1.2.1"
+  }
+}

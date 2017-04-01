@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* CSS Document */
+
+/*GENERAL*/
+
+li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.header{
+  background-image:url("headerbackground.jpeg");
+  background-size: cover;
+  /*rgba(228,249,245,0.8);*/
+  box-shadow: inset 0 0 0 1000px rgba(48,227,202,0.55);
+  height:100vh;
+}
+
+#headertext{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size:60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background-color: rgba(48,227,202,0.9);*/
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+}​
+
+.aboutsection{
+   margin-top:50px;
+   margin-bottom:50px;
+}
+
+#abouttext{
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.nav > li > a:hover{
+    background-color:rgba(48,227,202,0.55);
+    color:white;
+}
+
+.nav > li > a:active{
+    background-color:rgba(48,227,202,0.55);
+    color:white;
+}
+
+.nav > li > a:focus{
+    background-color:rgba(48,227,202,0.55);
+    color:white;
+}
+
+.navbar-brand{
+   font-family: 'Signika', sans-serif;
+   font-size:30px;
+   color:#40514E;
+}
+.navbutton{
+  color:#40514E;
+}
+.navbar-fixed-top {
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-fixed-top.solid {
+    background-color: black;
+    transition: background-color 1s ease 0s;
+}
+
+.hr{
+  border-color: #30E3CA;
+  border-width: 3px;
+  width:100px;
+}
+
+.WhatWeDo{
+  padding-top:50px;
+  padding-bottom:50px;
+  box-shadow: inset 0 0 0 1000px rgba(228,249,245,0.8);
+  background-image: url("whatwedobackground.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.applybutton {
+    background-color: #30E3CA;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius:2px;
+}
+
+.Contact{
+  padding-top:50px;
+  padding-bottom:50px;
+  box-shadow: inset 0 0 0 1000px rgba(64,81,78,0.8);
+  background-image: url("formbackground.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.fade-background{
+-moz-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in;
+transition: all .2s ease-in;
+}
+
+.fade-background:hover{
+background-color: white;
+color:black;
+border-radius:15px;
+}
+
+.mainWrap {
+  max-width:900px;
+  width:80%;
+  margin:0 auto;
+  padding-bottom:50px;
+}
+
+Landscape mobile & down
+@media (max-width: 30em) {
+  .wrap h1 {
+    font-size:2.3em;
+    letter-spacing:0;
+  }
+  
+  .wrap p {
+    font-size:1.1em;
+    line-height:1.4em;
+  }
+  
+  .name,.email {
+    width:100%;
+  }
+  
+  .email {
+    margin-top:20px;
+  }
+  
+  .bigBtn {
+    font-size:1em;
+  }
+}
+
+
+
+.pricing-table {
+    max-width: 368px;
+    margin: 0 auto;
+    transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    border-radius: 0px;
+}
+
+.panel-heading-landing {
+    padding: 20px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border: solid 2px #11999E !important;
+    border-bottom: none !important;
+}
+
+.panel-heading-landing-box {
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 3px !important;
+    border-top: none !important;
+}
+
+.panel-title-landing {
+    font-size: 30px;
+}
+
+.panel{
+	background:none;
+}
+
+.panel-body-landing {
+	
+    border: solid 2px #11999E !important;
+    border-top: none !important;
+    border-bottom: none !important;
+	font-size:16px;
+}
+
+.panel-footer-landing {
+    border: solid 2px #11999E !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top: none !important;
+	background:none;
+}
+
+.intro{
+	font-size:100%;
+}
+
+.modalDialog {
+	position: fixed;
+	overflow: scroll;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 80vw;;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 2px;
+	background:#16071C;
+}
+
+.close {
+	color:white;
+}
+
+
+.link{
+	color:white;
+}

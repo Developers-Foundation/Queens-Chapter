@@ -1,0 +1,7 @@
+{
+  "name": "Queen'sDevFoundation",
+  "description": "Developer's Foundation Queen's Website",
+  "repository": "https://github.com/SirLeonardIV/QueensDevFound.git",
+  "logo": "https://developersfoundation.ca/assets/img/logo.png",
+  "keywords": ["php", "heroku", "blank", "template","queens"]
+}
