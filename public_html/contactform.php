@@ -8,10 +8,10 @@
 <title>DFQC - Contact Us</title>
 
 <link rel = "stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="contactform.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/contactform.css" />
 
 
-<link rel="icon" type="image/ico" href="DFFavicon.ico">
+<link rel="icon" type="image/ico" href="assets/img/DFFavicon.ico">
 
 
 </head>
@@ -54,8 +54,8 @@
 	-->
 </div> <!-- Close main container-->
 
-<script src="jquery-3.0.0.min.js"></script>
-<script src="bootstrap.js"></script>
+<script src="assets/js/jquery-3.0.0.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
 <script src="MailerFiles/main.js"></script>
 
 </body>
