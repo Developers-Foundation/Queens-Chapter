@@ -14,7 +14,7 @@ li {
 
 
 .header{
-  background-image:url("headerbackground.jpeg");
+  background-image:url("../img/headerbackground.jpeg");
   background-size: cover;
   /*rgba(228,249,245,0.8);*/
   box-shadow: inset 0 0 0 1000px rgba(48,227,202,0.55);
@@ -97,7 +97,7 @@ li {
   padding-top:50px;
   padding-bottom:50px;
   box-shadow: inset 0 0 0 1000px rgba(228,249,245,0.8);
-  background-image: url("whatwedobackground.jpeg");
+  background-image: url("../img/whatwedobackground.jpeg");
 
     /* Full height */
     height: 100%; 
@@ -126,7 +126,7 @@ li {
   padding-top:50px;
   padding-bottom:50px;
   box-shadow: inset 0 0 0 1000px rgba(64,81,78,0.8);
-  background-image: url("formbackground.jpg");
+  background-image: url("../img/formbackground.jpg");
 
     /* Full height */
     height: 100%; 
